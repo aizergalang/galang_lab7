@@ -14,7 +14,7 @@ else:
             print('error')
         else:
             final_grade=(prelim*0.3333+midterm*0.3333+final*0.3333)
-            print("your final grade this sem is",final_grade)
+            print(f"your final grade this sem is {final_grade:.2f}")
             
 if final_grade >= 99: 
     grade_point = 1.00
